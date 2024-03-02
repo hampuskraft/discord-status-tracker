@@ -1,0 +1,17 @@
+{
+  "name": "discord-status-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "format": "prettier --write .",
+    "start": "wrangler dev --test-scheduled"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "4.20240222.0",
+    "discord-api-types": "0.37.71",
+    "prettier-plugin-organize-imports": "3.2.4",
+    "typescript": "5.3.3",
+    "wrangler": "3.30.1"
+  }
+}
