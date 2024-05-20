@@ -57,18 +57,18 @@ export type StatusPageIncidentUpdate = {
 };
 
 export enum StatusPageIncidentStatus {
-	Investigating = "investigating",
-	Identified = "identified",
-	Monitoring = "monitoring",
-	Resolved = "resolved",
-	Postmortem = "postmortem",
+	Investigating = 'investigating',
+	Identified = 'identified',
+	Monitoring = 'monitoring',
+	Resolved = 'resolved',
+	Postmortem = 'postmortem',
 }
 
 export enum StatusPageIncidentImpact {
-	None = "none",
-	Minor = "minor",
-	Major = "major",
-	Critical = "critical",
+	None = 'none',
+	Minor = 'minor',
+	Major = 'major',
+	Critical = 'critical',
 }
 
 export type StatusPageComponent = {
